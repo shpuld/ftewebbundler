@@ -1,5 +1,5 @@
 {
-  "name": "ftebundler",
+  "name": "ftewebbundler",
   "version": "1.0.0",
   "description": "Watches and automatically bundles FTE project into a web build",
   "main": "index.js",
