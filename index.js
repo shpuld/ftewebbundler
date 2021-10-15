@@ -114,7 +114,7 @@ const watchProgs = async () => {
 		const watchFiles = progsFiles.reduce((acc, val, idx) => {
 			const currentAddition = files.includes(val) ? [val] : []
 			if (idx == 1) {
-				// First iteration, acc = first value in array, retarded vanilla-js reduce
+				// First iteration, acc = first value in array, dumb vanilla-js reduce
 				if (files.includes(acc)) {
 					return [acc].concat(currentAddition)
 				}
